@@ -12,3 +12,10 @@ function acessar(){
         window.location.href = "cadastro.html";
     }
 }
+
+// Cria variável do tipo array
+var dadosLista = [];
+
+function salvarUser(){
+    let nome = document.getElementById("nomeUser").value;
+}
