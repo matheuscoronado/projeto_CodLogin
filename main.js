@@ -18,4 +18,10 @@ var dadosLista = [];
 
 function salvarUser(){
     let nome = document.getElementById("nomeUser").value;
+
+    if(nomeUser){
+        dadosLista.push(nomeUser);
+        console.log(dadosLista);
+        document.getElementById("nomeUser").value = ""; // Limpa o campo após o cadastro
+    }
 }
