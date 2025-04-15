@@ -17,11 +17,11 @@ function acessar(){
 var dadosLista = [];
 
 function salvarUser(){
-    let nome = document.getElementById("nomeUser").value;
+    let nameUser = document.getElementById("nameUser").value;
 
-    if(nomeUser){
-        dadosLista.push(nomeUser);
+    if(nameUser){
+        dadosLista.push(nameUser);
         console.log(dadosLista);
-        document.getElementById("nomeUser").value = ""; // Limpa o campo após o cadastro
+        document.getElementById("nameUser").value = ""; // Limpa o campo após o cadastro
     }
 }
