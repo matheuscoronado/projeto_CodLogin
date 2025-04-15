@@ -8,4 +8,7 @@ function acessar(){
         alert("Favor preencher todos os campos!");
         return;
     }
+    else{
+        window.location.href = "cadastro.html";
+    }
 }
