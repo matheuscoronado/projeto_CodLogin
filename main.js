@@ -24,4 +24,9 @@ function salvarUser(){
         console.log(dadosLista);
         document.getElementById("nameUser").value = ""; // Limpa o campo após o cadastro
     }
+    else{
+        alert("Favor informar um nome para o cadastro!");
+    }
 }
+
+// Função para preencher a lista de cadastro
